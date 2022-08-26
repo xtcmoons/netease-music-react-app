@@ -9,9 +9,6 @@ module.exports = {
       lessLoaderOptions: {
         lessOptions: {},
       },
-    }),
-    addWebpackAlias({
-      '@': path.resolve(__dirname, 'src'),
     })
   ),
 };
